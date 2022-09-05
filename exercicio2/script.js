@@ -13,3 +13,16 @@ const filme = {
 };
 
 // respostas aqui ⬇️
+
+// a) Qual o código para imprimir o nome do **primeiro** ator/atriz?
+
+console.log("Primeiro Ator: ",filme.elenco[0])
+
+// b) Qual o código para imprimir o nome do **último** ator/atriz?
+console.log("Ultimo Ator: ",filme.elenco[filme.elenco.length-1])
+
+// c) Qual o código para exibir o array com **todas** as transmissões de hoje?
+console.log("Transmissões de hoje: ",filme.transmissoesHoje
+)
+// d) Qual o código para exibir o **horário** de transmissão do filme no `Canal Brasil`?
+console.log("Canal Brasil: ",filme.transmissoesHoje[1].horario)
